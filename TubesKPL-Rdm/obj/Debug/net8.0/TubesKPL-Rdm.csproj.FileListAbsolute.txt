@@ -1,0 +1,14 @@
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\bin\Debug\net8.0\TubesKPL-Rdm.exe
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\bin\Debug\net8.0\TubesKPL-Rdm.deps.json
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\bin\Debug\net8.0\TubesKPL-Rdm.runtimeconfig.json
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\bin\Debug\net8.0\TubesKPL-Rdm.dll
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\bin\Debug\net8.0\TubesKPL-Rdm.pdb
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\obj\Debug\net8.0\TubesKPL-Rdm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\obj\Debug\net8.0\TubesKPL-Rdm.AssemblyInfoInputs.cache
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\obj\Debug\net8.0\TubesKPL-Rdm.AssemblyInfo.cs
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\obj\Debug\net8.0\TubesKPL-Rdm.csproj.CoreCompileInputs.cache
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\obj\Debug\net8.0\TubesKPL-Rdm.dll
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\obj\Debug\net8.0\refint\TubesKPL-Rdm.dll
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\obj\Debug\net8.0\TubesKPL-Rdm.pdb
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\obj\Debug\net8.0\TubesKPL-Rdm.genruntimeconfig.cache
+C:\Programing\C#\TubesKPL-Rdm\TubesKPL-Rdm\obj\Debug\net8.0\ref\TubesKPL-Rdm.dll
