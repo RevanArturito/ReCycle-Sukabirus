@@ -1,0 +1,11 @@
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\bin\Debug\net8.0\Library.deps.json
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\bin\Debug\net8.0\Library.dll
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\bin\Debug\net8.0\Library.pdb
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\obj\Debug\net8.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\obj\Debug\net8.0\Library.AssemblyInfoInputs.cache
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\obj\Debug\net8.0\Library.AssemblyInfo.cs
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\obj\Debug\net8.0\Library.csproj.CoreCompileInputs.cache
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\obj\Debug\net8.0\Library.dll
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\obj\Debug\net8.0\refint\Library.dll
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\obj\Debug\net8.0\Library.pdb
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\Library\obj\Debug\net8.0\ref\Library.dll
