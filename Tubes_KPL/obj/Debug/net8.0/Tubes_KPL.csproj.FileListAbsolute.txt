@@ -1,0 +1,17 @@
+D:\codingan\Tubes_KPL\Tubes_KPL\bin\Debug\net8.0\Tubes_KPL.exe
+D:\codingan\Tubes_KPL\Tubes_KPL\bin\Debug\net8.0\Tubes_KPL.deps.json
+D:\codingan\Tubes_KPL\Tubes_KPL\bin\Debug\net8.0\Tubes_KPL.runtimeconfig.json
+D:\codingan\Tubes_KPL\Tubes_KPL\bin\Debug\net8.0\Tubes_KPL.dll
+D:\codingan\Tubes_KPL\Tubes_KPL\bin\Debug\net8.0\Tubes_KPL.pdb
+D:\codingan\Tubes_KPL\Tubes_KPL\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.csproj.AssemblyReference.cache
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.GeneratedMSBuildEditorConfig.editorconfig
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.AssemblyInfoInputs.cache
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.AssemblyInfo.cs
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.csproj.CoreCompileInputs.cache
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.csproj.Up2Date
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.dll
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\refint\Tubes_KPL.dll
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.pdb
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.genruntimeconfig.cache
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\ref\Tubes_KPL.dll
