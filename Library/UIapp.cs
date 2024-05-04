@@ -36,6 +36,7 @@ namespace Library
             Console.WriteLine("#                  1.Edit                   #");
             Console.WriteLine("#                  2.Tambah                 #");
             Console.WriteLine("#                  3.Hapus                  #");
+            Console.WriteLine("#                  4.Daftar Produk          #");
             Console.WriteLine("#                  0.Exit                   #");
             Console.WriteLine("#############################################");
             Console.WriteLine();

@@ -4,6 +4,7 @@ using Authentication.Controllers;
 using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Firestore;
 using Library;
+using Library.AdminOps;
 using Newtonsoft.Json;
 using System.Collections.Concurrent;
 using System.Runtime.CompilerServices;
@@ -21,7 +22,9 @@ namespace AuthConsole
         
             UIapp ui = new UIapp(); // panggil class ui
             CheckingFunc checkingFunc = new CheckingFunc(); // panggil class CheckingFunc
-            
+            ViewAsAdmin adminView = new ViewAsAdmin();
+            CreateAsAdmin adminCreate = new CreateAsAdmin();
+   
             // Read data akun json file
             const string FilePath = @"./Account.json";
             using (StreamReader Read = new StreamReader(FilePath))
@@ -55,10 +58,16 @@ namespace AuthConsole
                                     switch (nomor2)
                                     {
                                         case 1:
+
                                             Console.WriteLine("tes1");
                                             break;
                                         case 2:
-                                            Console.WriteLine("tes2");
+                                            adminCreate.CreateProduct();
+                                            break;
+                                        case 3:
+                                            break;
+                                        case 4:
+                                            adminView.viewProduct();
                                             break;
                                         case 0:
                                             break;
@@ -66,6 +75,8 @@ namespace AuthConsole
                                             Console.WriteLine("Pilihan Tidak Sesuai");
                                             break;
                                     }
+                                    ui.AdminOption();
+                                    nomor2 = Convert.ToInt32(Console.ReadLine());
                                 }  
                             }
                             else
