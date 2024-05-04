@@ -8,12 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Cloud.Firestore" Version="3.6.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Authentication\Authentication.csproj" />
-    <ProjectReference Include="..\Library\Library.csproj" />
   </ItemGroup>
 
 </Project>
