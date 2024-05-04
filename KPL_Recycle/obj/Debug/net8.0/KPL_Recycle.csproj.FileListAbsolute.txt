@@ -1,0 +1,14 @@
+D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\KPL_Recycle.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\KPL_Recycle.AssemblyInfoInputs.cache
+D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\KPL_Recycle.AssemblyInfo.cs
+D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\KPL_Recycle.csproj.CoreCompileInputs.cache
+D:\VS\KPL_Recycle\KPL_Recycle\bin\Debug\net8.0\KPL_Recycle.exe
+D:\VS\KPL_Recycle\KPL_Recycle\bin\Debug\net8.0\KPL_Recycle.deps.json
+D:\VS\KPL_Recycle\KPL_Recycle\bin\Debug\net8.0\KPL_Recycle.runtimeconfig.json
+D:\VS\KPL_Recycle\KPL_Recycle\bin\Debug\net8.0\KPL_Recycle.dll
+D:\VS\KPL_Recycle\KPL_Recycle\bin\Debug\net8.0\KPL_Recycle.pdb
+D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\KPL_Recycle.dll
+D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\refint\KPL_Recycle.dll
+D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\KPL_Recycle.pdb
+D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\KPL_Recycle.genruntimeconfig.cache
+D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\ref\KPL_Recycle.dll
