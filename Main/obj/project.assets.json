@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\Alghifari\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Main\\Main.csproj",
+      "projectUniqueName": "C:\\Users\\Alghifari\\Tubes\\Main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Main\\Main.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Main\\obj\\",
+      "projectPath": "C:\\Users\\Alghifari\\Tubes\\Main\\Main.csproj",
+      "packagesPath": "C:\\Users\\Alghifari\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alghifari\\Tubes\\Main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alghifari\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
