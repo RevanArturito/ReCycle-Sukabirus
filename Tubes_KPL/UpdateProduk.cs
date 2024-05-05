@@ -12,7 +12,7 @@ namespace Tubes_KPL
     {
         public void update(List<Produk> list, int index)
         {
-            string nama, jenis, harga, panjang, lebar, deskripsi;
+            string nama, jenis, harga, panjang, stok, lebar, deskripsi;
 
             //input nama produk
             Console.WriteLine("Masukkan Data Baru:");
@@ -65,9 +65,23 @@ namespace Tubes_KPL
                     Console.WriteLine("Lebar harus berupa angka.");
                 }
             } while (!int.TryParse(lebar, out cekLebar));
+            list[index].lebarProduk = cekLebar.ToString();
+
+            //input stok
+            int cekStok;
+            do
+            {
+                Console.Write("Stok: ");
+                stok = Console.ReadLine();
+                if (!int.TryParse(stok, out cekStok))
+                {
+                    Console.WriteLine("input Stok harus berupa angka.");
+                }
+            } while (!int.TryParse(stok, out cekStok));
+            list[index].stokProduk = cekStok.ToString();
 
             //input deskripsi
-            list[index].lebarProduk = cekLebar.ToString();
+
             Console.Write("Deskripsi: ");
             deskripsi = Console.ReadLine();
             list[index].deskripsiProduk = deskripsi;
