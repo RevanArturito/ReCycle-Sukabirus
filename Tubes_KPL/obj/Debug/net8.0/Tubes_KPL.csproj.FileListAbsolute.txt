@@ -15,3 +15,4 @@ D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\refint\Tubes_KPL.dll
 D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.pdb
 D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.genruntimeconfig.cache
 D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\ref\Tubes_KPL.dll
+D:\codingan\Tubes_KPL\Tubes_KPL\obj\Debug\net8.0\Tubes_KPL.sourcelink.json

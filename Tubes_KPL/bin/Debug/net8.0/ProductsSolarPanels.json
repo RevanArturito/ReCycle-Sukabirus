@@ -1,1 +1,47 @@
-[{"namaproduk":"01","jenis":"fa","idProduk":"da","hargaProduk":"2133","panjangProduk":"20","lebarProduk":"20","deskripsiProduk":"hkfshkjsf"}]
+[
+  {
+    "namaproduk": "panel",
+    "jenis": "panel",
+    "idProduk": "da",
+    "hargaProduk": "20000000",
+    "panjangProduk": "20",
+    "lebarProduk": "30",
+    "deskripsiProduk": "panel surya"
+  },
+  {
+    "namaproduk": "21",
+    "jenis": "fais",
+    "idProduk": "da",
+    "hargaProduk": "21313",
+    "panjangProduk": "23",
+    "lebarProduk": "23",
+    "deskripsiProduk": "gsehheghehes"
+  },
+  {
+    "namaproduk": "da",
+    "jenis": "da",
+    "idProduk": "da",
+    "hargaProduk": "da",
+    "panjangProduk": "da",
+    "lebarProduk": "da",
+    "deskripsiProduk": "da"
+  },
+  {
+    "namaproduk": "da",
+    "jenis": "ad",
+    "idProduk": "fs",
+    "hargaProduk": "gd",
+    "panjangProduk": "fh",
+    "lebarProduk": "jg",
+    "deskripsiProduk": "hk"
+  },
+  {
+    "namaproduk": "kdfk",
+    "jenis": "ksk",
+    "idProduk": "jsf",
+    "hargaProduk": "21000",
+    "panjangProduk": "93",
+    "lebarProduk": "43",
+    "deskripsiProduk": "jjijrijrk"
+  }
+]
