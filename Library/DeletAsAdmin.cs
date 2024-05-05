@@ -1,4 +1,6 @@
-﻿namespace Library
+﻿using System.Diagnostics;
+
+namespace Library
 {
     public class DeletAsAdmin<T>
     {
@@ -11,11 +13,17 @@
 
         public void DeleteByIndex(int index)
         {
+            Debug.Assert(index <= items.Count, "Pilihan tidak seusai");
+
             if (index >= 0 && index < items.Count)
             {
+                    
                 T deletedItem = items[index];
                 items.RemoveAt(index);
+                Console.WriteLine(" ");
                 Console.WriteLine($"({deletedItem}) telah dihapus.");
+                Console.WriteLine(" ");
+
             }
             else
             {

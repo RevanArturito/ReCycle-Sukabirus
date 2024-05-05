@@ -17,3 +17,4 @@ E:\Materi\SEMESTER 4\KPL\Delet_1302220064\DeletMain\obj\Debug\net8.0\refint\Dele
 E:\Materi\SEMESTER 4\KPL\Delet_1302220064\DeletMain\obj\Debug\net8.0\DeletMain.pdb
 E:\Materi\SEMESTER 4\KPL\Delet_1302220064\DeletMain\obj\Debug\net8.0\DeletMain.genruntimeconfig.cache
 E:\Materi\SEMESTER 4\KPL\Delet_1302220064\DeletMain\obj\Debug\net8.0\ref\DeletMain.dll
+E:\Materi\SEMESTER 4\KPL\Delet_1302220064\DeletMain\obj\Debug\net8.0\DeletMain.sourcelink.json

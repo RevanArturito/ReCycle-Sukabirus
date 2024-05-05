@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeletMain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd4c278a2e13defe04ab0e1c808974525e1bb582")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeletMain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeletMain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
