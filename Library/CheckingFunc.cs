@@ -13,6 +13,9 @@ namespace Library
     {
         public static List<Account> accounts = new List<Account>();
         const string FilePath = @"./Account.json";
+
+        public static List<ProductPanelSurya> products = new List<ProductPanelSurya>();
+        const string ProductFilePath = @"./ProductSolarPanels.json";
         public bool LoginCheck(string username, string password)
         {
             
@@ -47,6 +50,15 @@ namespace Library
                 }
             }
             return false;
+        }
+
+        public bool StockCheck(int index)
+        {
+            using (StreamReader Read = new StreamReader(ProductFilePath))
+            {
+                products = JsonConvert.DeserializeObject<List<ProductPanelSurya>>(Read.ReadToEnd());
+            }
+            return (products[index-1].stokProduk > 0);
         }
     }
 }

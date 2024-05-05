@@ -91,5 +91,13 @@ namespace Library
             Console.WriteLine("#############################################");
             Console.WriteLine("");
         }
+        public void BeliProduk()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("#############################################");
+            Console.WriteLine("###               Beli Produk             ###");
+            Console.WriteLine("#############################################");
+            Console.WriteLine("");
+        }
     }
 }

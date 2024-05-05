@@ -5,6 +5,7 @@ using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Firestore;
 using Library;
 using Library.AdminOps;
+using Library.UserOps;
 using Newtonsoft.Json;
 using System.Collections.Concurrent;
 using System.Runtime.CompilerServices;
@@ -27,6 +28,7 @@ namespace AuthConsole
             CreateAsAdmin adminCreate = new CreateAsAdmin();
             DeleteAsAdmin adminDelete = new DeleteAsAdmin();
             UpdateAsAdmin adminUpdate = new UpdateAsAdmin();
+            ProductTransaction userTransaction = new ProductTransaction();
 
             // Read data akun json file
             const string FilePath = @"./Account.json";
@@ -97,7 +99,33 @@ namespace AuthConsole
                                 int nomor3 = Convert.ToInt32(Console.ReadLine());
                                 while(nomor3 != 0)
                                 {
-
+                                    switch (nomor3)
+                                    {
+                                        case 1:
+                                            adminView.viewProduct();
+                                            Console.Write("Masukkan nomor produk yang ingin dibeli : ");
+                                            int indexBeli = Convert.ToInt32(Console.ReadLine());
+                                                Console.WriteLine();
+                                                ui.BeliProduk();
+                                                userTransaction.Transaction(indexBeli);
+                                            /*if (checkingFunc.StockCheck(indexBeli))
+                                            {
+                                            } else
+                                            {
+                                                Console.WriteLine("Stok Habis");
+                                            }*/
+                                            break;
+                                        case 2:
+                                            break;
+                                        case 0:
+                                            ;
+                                            break;
+                                        default:
+                                            Console.WriteLine("Pilihan Tidak Sesuai");
+                                            break;
+                                    }
+                                    ui.UserOption();
+                                    nomor3 = Convert.ToInt32(Console.ReadLine());
                                 }
                             }
                         }
