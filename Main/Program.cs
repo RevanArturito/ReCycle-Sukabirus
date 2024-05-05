@@ -26,6 +26,7 @@ namespace AuthConsole
             ViewAsAdmin adminView = new ViewAsAdmin();
             CreateAsAdmin adminCreate = new CreateAsAdmin();
             DeleteAsAdmin adminDelete = new DeleteAsAdmin();
+            UpdateAsAdmin adminUpdate = new UpdateAsAdmin();
 
             // Read data akun json file
             const string FilePath = @"./Account.json";
@@ -67,8 +68,8 @@ namespace AuthConsole
                                     switch (nomor2)
                                     {
                                         case 1:
-
-                                            Console.WriteLine("tes1");
+                                            adminView.viewProduct();
+                                            adminUpdate.UpdateProduct();
                                             break;
                                         case 2:
                                             adminCreate.CreateProduct();

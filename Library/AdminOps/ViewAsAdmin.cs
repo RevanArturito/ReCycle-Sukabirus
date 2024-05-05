@@ -32,7 +32,7 @@ namespace Library.AdminOps
                     Console.WriteLine("ID Produk: " + product.idProduk);
                     Console.WriteLine("Nama Produk: " + product.namaproduk);
                     Console.WriteLine("Jenis: " + product.jenis);
-                    Console.WriteLine("Harga Produk: Rp" + product.hargaProduk);
+                    Console.WriteLine("Harga Produk: Rp. " + product.hargaProduk + ",-");
                     Console.WriteLine("Panjang Produk: " + product.panjangProduk + " mm");
                     Console.WriteLine("Lebar Produk: " + product.lebarProduk + " mm");
                     Console.WriteLine("Stok tersedia: " + product.stokProduk + " Unit");

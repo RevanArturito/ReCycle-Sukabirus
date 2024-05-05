@@ -37,7 +37,7 @@ namespace Library.AdminOps
 
             Console.WriteLine("Enter Product Name:");
             inputNama = Console.ReadLine();
-            Debug.Assert(inputNama == null, "Nama Produk Jangan Kosong"); // Defensive Programing
+            Debug.Assert(inputNama != "", "Nama Produk Jangan Kosong"); // Defensive Programing
 
             Console.WriteLine("Enter Product Type:");
             inputJenis = Console.ReadLine();
