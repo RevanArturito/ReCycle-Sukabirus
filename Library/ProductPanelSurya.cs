@@ -14,9 +14,10 @@ namespace Library
         public string hargaProduk { get; set; }
         public string panjangProduk { get; set; }
         public string lebarProduk { get; set; }
+        public int stokProduk { get; set; }
         public string deskripsiProduk { get; set; }
 
-        public ProductPanelSurya(string id, string nama, string jenis, string harga, string panjang, string lebar, string deskripsi)
+        public ProductPanelSurya(string id, string nama, string jenis, string harga, string panjang, string lebar, int stok, string deskripsi)
         {
             this.namaproduk = nama;
             this.jenis = jenis;
@@ -24,6 +25,7 @@ namespace Library
             this.hargaProduk = harga;
             this.panjangProduk = panjang;
             this.lebarProduk = lebar;
+            this.stokProduk = stok;
             this.deskripsiProduk = deskripsi;
         }
     }

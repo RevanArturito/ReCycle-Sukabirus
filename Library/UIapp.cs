@@ -82,5 +82,14 @@ namespace Library
             Console.WriteLine("");
 
         }
+
+        public void DaftarProduk()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("#############################################");
+            Console.WriteLine("###             Daftar Produk             ###");
+            Console.WriteLine("#############################################");
+            Console.WriteLine("");
+        }
     }
 }

@@ -14,24 +14,10 @@
     "role": "user"
   },
   {
-    "username": "string",
-    "password": "string",
-    "email": "string",
-    "phone": "string",
-    "role": "string"
-  },
-  {
     "username": "c",
     "password": "c",
     "email": "c",
     "phone": "c",
     "role": "admin"
-  },
-  {
-    "username": "string",
-    "password": "string",
-    "email": "string",
-    "phone": "string",
-    "role": "string"
   }
 ]

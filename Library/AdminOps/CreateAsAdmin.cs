@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Text.Json;
 using Authentication;
@@ -17,13 +18,26 @@ namespace Library.AdminOps
 
         public void CreateProduct()
         {
-            string inputID, inputNama, inputJenis, inputHarga, inputPanjang, inputLebar, inputDeskripsi;
+            string inputNama, inputJenis, inputHarga, inputPanjang, inputLebar, inputDeskripsi;
+            int inputStok;
 
-            Console.WriteLine("Enter Product ID:");
-            inputID = Console.ReadLine();
+            // Inisialisasi objek dari kelas Random
+            Random inputID = new Random();
+
+            // Membuat 4 teks angka acak
+            string randomText = "";
+            for (int i = 0; i < 4; i++)
+            {
+                // Menghasilkan angka acak antara 0 dan 9
+                int randomNumber = inputID.Next(10);
+
+                // Menambahkan angka acak ke teks
+                randomText += randomNumber.ToString();
+            }
 
             Console.WriteLine("Enter Product Name:");
             inputNama = Console.ReadLine();
+            Debug.Assert(inputNama == null, "Nama Produk Jangan Kosong"); // Defensive Programing
 
             Console.WriteLine("Enter Product Type:");
             inputJenis = Console.ReadLine();
@@ -37,6 +51,9 @@ namespace Library.AdminOps
             Console.WriteLine("Enter Product Width:");
             inputLebar = Console.ReadLine();
 
+            Console.WriteLine("Enter Product Stock:");
+            inputStok = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Enter Product Description:");
             inputDeskripsi = Console.ReadLine();
 
@@ -46,7 +63,7 @@ namespace Library.AdminOps
             string json = File.ReadAllText(filePath);
             List<ProductPanelSurya> productsFromFile = JsonConvert.DeserializeObject<List<ProductPanelSurya>>(json);
             products = productsFromFile.ToList();
-            products.Add(new ProductPanelSurya(inputID, inputNama, inputJenis, inputHarga, inputPanjang, inputLebar, inputDeskripsi));
+            products.Add(new ProductPanelSurya(randomText, inputNama, inputJenis, inputHarga, inputPanjang, inputLebar, inputStok, inputDeskripsi));
             ReadData(products);
 
         }

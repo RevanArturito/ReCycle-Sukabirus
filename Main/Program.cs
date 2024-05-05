@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using System.Collections.Concurrent;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
+using System.Text.Json;
 
 namespace AuthConsole
 { 
@@ -24,13 +25,21 @@ namespace AuthConsole
             CheckingFunc checkingFunc = new CheckingFunc(); // panggil class CheckingFunc
             ViewAsAdmin adminView = new ViewAsAdmin();
             CreateAsAdmin adminCreate = new CreateAsAdmin();
-   
+            DeleteAsAdmin adminDelete = new DeleteAsAdmin();
+
             // Read data akun json file
             const string FilePath = @"./Account.json";
+            const string ProductFilePath = @"./ProductsSolarPanels.json";
             using (StreamReader Read = new StreamReader(FilePath))
             {
                 accounts = JsonConvert.DeserializeObject<List<Account>>(Read.ReadToEnd());
             }
+            string json = File.ReadAllText(ProductFilePath);
+
+            // Deserialisasi JSON menjadi array objek
+            List<ProductPanelSurya> productsFromFile = JsonConvert.DeserializeObject<List<ProductPanelSurya>>(json);
+
+
 
             ui.ApplicationStartUI();
             int nomor1 = Convert.ToInt32(Console.ReadLine());
@@ -65,6 +74,8 @@ namespace AuthConsole
                                             adminCreate.CreateProduct();
                                             break;
                                         case 3:
+                                            adminView.viewProduct();
+                                            adminDelete.Delete();
                                             break;
                                         case 4:
                                             adminView.viewProduct();
