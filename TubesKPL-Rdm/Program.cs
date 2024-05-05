@@ -1,22 +1,32 @@
-﻿// usi
-// ng LibraryAtributPanelSurya;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using Newtonsoft.Json;
+
 class Program
 {
 
     public static void Main(string[] args)
     {
-        string inputID, inputNama, inputJenis, inputHarga, inputPanjang, inputLebar, inputDeskripsi;
+        string inputNama, inputJenis, inputHarga, inputPanjang, inputLebar, inputDeskripsi;
 
-        /*Console.Write("Masukkan N Produk Panel Surya:");
-        nDataPanel = int.Parse(Console.ReadLine());*/
+        // Inisialisasi objek dari kelas Random
+        Random inputID = new Random();
 
-        Console.WriteLine("Enter Product ID:");
-        inputID = Console.ReadLine();
+        // Membuat 4 teks angka acak
+        string randomText = "";
+        for (int i = 0; i < 4; i++)
+        {
+            // Menghasilkan angka acak antara 0 dan 9
+            int randomNumber = inputID.Next(10);
+
+            // Menambahkan angka acak ke teks
+            randomText += randomNumber.ToString();
+        }
+
+        /*Console.WriteLine("Enter Product ID:");
+        inputID = Console.ReadLine();*/
 
         Console.WriteLine("Enter Product Name:");
         inputNama = Console.ReadLine();
@@ -40,7 +50,7 @@ class Program
         List<ProductPanelSurya> products = new List<ProductPanelSurya>();
 
         // Adding a new product to the list
-        products.Add(new ProductPanelSurya(inputID, inputNama, inputJenis, inputHarga, inputPanjang, inputLebar, inputDeskripsi));
+        products.Add(new ProductPanelSurya(randomText, inputNama, inputJenis, inputHarga, inputPanjang, inputLebar, inputDeskripsi));
 
         Console.WriteLine();
 
@@ -71,7 +81,7 @@ class Program
             List<ProductPanelSurya> productsFromFile = JsonConvert.DeserializeObject<List<ProductPanelSurya>>(json);
 
             // Menampilkan data produk ke konsol
-            foreach (var product in products)
+            foreach (var product in productsFromFile)
             {
                 Console.WriteLine("ID Produk: " + product.idProduk);
                 Console.WriteLine("Nama Produk: " + product.namaproduk);
