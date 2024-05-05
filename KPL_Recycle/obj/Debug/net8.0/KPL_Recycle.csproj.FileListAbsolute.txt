@@ -12,3 +12,4 @@ D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\refint\KPL_Recycle.dll
 D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\KPL_Recycle.pdb
 D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\KPL_Recycle.genruntimeconfig.cache
 D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\ref\KPL_Recycle.dll
+D:\VS\KPL_Recycle\KPL_Recycle\obj\Debug\net8.0\KPL_Recycle.sourcelink.json

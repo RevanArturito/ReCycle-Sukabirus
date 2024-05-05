@@ -52,8 +52,6 @@ namespace KPL_Recycle
                 Console.WriteLine($"Email         : {configuration.email}");
                 Console.WriteLine($"Nomor Telepon : +{configuration.phoneNumber}");
             }
-
-            //riwayat transaksi
         }
     }
 }

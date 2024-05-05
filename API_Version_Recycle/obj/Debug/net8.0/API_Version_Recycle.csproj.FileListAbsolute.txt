@@ -30,3 +30,4 @@ D:\VS\KPL_Recycle\API_Version_Recycle\obj\Debug\net8.0\refint\API_Version_Recycl
 D:\VS\KPL_Recycle\API_Version_Recycle\obj\Debug\net8.0\API_Version_Recycle.pdb
 D:\VS\KPL_Recycle\API_Version_Recycle\obj\Debug\net8.0\API_Version_Recycle.genruntimeconfig.cache
 D:\VS\KPL_Recycle\API_Version_Recycle\obj\Debug\net8.0\ref\API_Version_Recycle.dll
+D:\VS\KPL_Recycle\API_Version_Recycle\obj\Debug\net8.0\API_Version_Recycle.sourcelink.json
