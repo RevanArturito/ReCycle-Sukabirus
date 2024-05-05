@@ -10,6 +10,7 @@ internal class Program
         int harga_barang = (int)Harga_Barang.SIX_MONOCRYSTALLINE_SOLAR_PANEL;
         Console.WriteLine("Harga Panel Surya: " + harga_barang);
 
+
         Payment Pembayaran = new Payment();
         Console.WriteLine("Status saat ini: " + Pembayaran.CurrentState);
         Pembayaran.ActiveTrigger(Trigger.TombolSelectPayment);
@@ -26,8 +27,7 @@ internal class Program
 
         Console.WriteLine("");
 
-        Debug.Assert(command == "1" || command == "2" || command == "3", "Tidak Ada Payment Yang Sesuai");
-        Debug.Assert(command != null, "Anda Harus Memilih Payment Untuk Melajutkan Proses Pembayaran");
+        Debug.Assert(command == "1" || command == "2" || command == "3" && !string.IsNullOrEmpty(command), "Anda Harus Memilih Payment Yang Tersedia");
 
         switch (state)
         {
@@ -41,12 +41,10 @@ internal class Program
                     Console.WriteLine("4. " + MBanking.BSI);
                     Console.WriteLine("5. " + MBanking.BNI);
                     Console.WriteLine("");
-                    Console.Write("Masukan Nama MBanking ");
+                    Console.Write("Masukan Nama MBanking  ");
 
                     command = Console.ReadLine();
                     Debug.Assert(command == "BCA" || command == "Mandiri" || command == "CIMB" || command == "BSI" || command == "BNI", "Nama MBanking Tidak Tersedia");
-                    Debug.Assert(command != null, "Anda Harus Memilih Nama MBanking Untuk Melanjutkan Proses Pembayaran");
-
                     if (command == "BCA")
                     {
                         Console.WriteLine("");
@@ -145,8 +143,6 @@ internal class Program
 
                     command = Console.ReadLine();
                     Debug.Assert(command == "MasterCard" || command == "Visa" || command == "AMEX" || command == "JBC", "Nama Credit Card Tidak Tersedia");
-                    Debug.Assert(command != null, "Anda Harus Memilih Nama Credit Card Untuk Melanjutkan Proses Pembayaran");
-
                     if (command == "MasterCard")
                     {
                         Console.WriteLine("");
@@ -227,8 +223,6 @@ internal class Program
 
                     command = Console.ReadLine();
                     Debug.Assert(command == "OVO" || command == "DANA" || command == "GoPay", "Nama EWallet Tidak Tersedia");
-                    Debug.Assert(command != null, "Anda Harus Memilih Nama EWallet Untuk Melanjutkan Proses Pembayaran");
-
                     if (command == "OVO")
                     {
                         Console.WriteLine("");
