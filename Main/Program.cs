@@ -8,6 +8,7 @@ using Library.AdminOps;
 using Library.UserOps;
 using Newtonsoft.Json;
 using System.Collections.Concurrent;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.Json;
@@ -18,7 +19,7 @@ namespace AuthConsole
     {
         
         public static List<Account> accounts = new List<Account>();
-        
+        public static List<ProductPanelSurya> products = new List<ProductPanelSurya>();
         public static void Main(string[] args)
         {
         
@@ -33,16 +34,15 @@ namespace AuthConsole
             // Read data akun json file
             const string FilePath = @"./Account.json";
             const string ProductFilePath = @"./ProductsSolarPanels.json";
+
             using (StreamReader Read = new StreamReader(FilePath))
             {
                 accounts = JsonConvert.DeserializeObject<List<Account>>(Read.ReadToEnd());
             }
+
             string json = File.ReadAllText(ProductFilePath);
-
-            // Deserialisasi JSON menjadi array objek
             List<ProductPanelSurya> productsFromFile = JsonConvert.DeserializeObject<List<ProductPanelSurya>>(json);
-
-
+            
 
             ui.ApplicationStartUI();
             int nomor1 = Convert.ToInt32(Console.ReadLine());
@@ -56,8 +56,10 @@ namespace AuthConsole
                         Console.WriteLine("Login");
                         Console.Write("Username : ");
                         string usernameLogin = Console.ReadLine();
+                        Debug.Assert(!string.IsNullOrEmpty(usernameLogin), "Username tidak boleh null");
                         Console.Write("Password : ");
                         string passwordLogin = Console.ReadLine();
+                        Debug.Assert(!string.IsNullOrEmpty(passwordLogin), "Password tidak boleh null");
 
                         if (checkingFunc.LoginCheck(usernameLogin,passwordLogin))
                         {
@@ -72,6 +74,7 @@ namespace AuthConsole
                                         case 1:
                                             adminView.viewProduct();
                                             adminUpdate.UpdateProduct();
+                                            
                                             break;
                                         case 2:
                                             adminCreate.CreateProduct();
@@ -88,6 +91,7 @@ namespace AuthConsole
                                         default:
                                             Console.WriteLine("Pilihan Tidak Sesuai");
                                             break;
+                                          
                                     }
                                     ui.AdminOption();
                                     nomor2 = Convert.ToInt32(Console.ReadLine());
@@ -117,6 +121,9 @@ namespace AuthConsole
                                             break;
                                         case 2:
                                             break;
+                                        case 3:
+                                            adminView.viewProduct();
+                                            break;
                                         case 0:
                                             ;
                                             break;
@@ -141,12 +148,16 @@ namespace AuthConsole
                         Console.WriteLine("###   Masukkan Data   ###");
                         Console.Write("Username : ");
                         string username = Console.ReadLine();
+                        Debug.Assert(!string.IsNullOrEmpty(username), "Username tidak boleh null");
                         Console.Write("Password : ");
                         string password = Console.ReadLine();
+                        Debug.Assert(!string.IsNullOrEmpty(password), "Password tidak boleh null");
                         Console.Write("Email    : ");
                         string email = Console.ReadLine();
+                        Debug.Assert(!string.IsNullOrEmpty(email), "Email tidak boleh null");
                         Console.Write("Phone    : ");
                         string phone = Console.ReadLine();
+                        Debug.Assert(!string.IsNullOrEmpty(phone), "Phone tidak boleh null");
                         Console.WriteLine();
 
                         AuthController authController = new AuthController();

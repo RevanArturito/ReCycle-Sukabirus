@@ -52,6 +52,7 @@ namespace Library
             Console.WriteLine("#                                           #");
             Console.WriteLine("#                  1.Beli Produk            #");
             Console.WriteLine("#                  2.Profil                 #");
+            Console.WriteLine("#                  3.Daftar Produk          #");
             Console.WriteLine("#                  0.Exit                   #");
             Console.WriteLine("#############################################");
             Console.WriteLine();

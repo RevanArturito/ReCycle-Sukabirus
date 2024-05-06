@@ -11,7 +11,7 @@ namespace Library.UserOps
 {
     public class ProductTransaction
     {
-        List<ProductPanelSurya> productsFromFile = new List<ProductPanelSurya>();
+        static List<ProductPanelSurya> productsFromFile = new List<ProductPanelSurya>();
         const string filePath = @"./ProductsSolarPanels.json";
         string json = File.ReadAllText(filePath);
 
@@ -71,7 +71,9 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
@@ -88,7 +90,9 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
@@ -105,7 +109,9 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
@@ -122,7 +128,9 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
@@ -139,14 +147,15 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Tidak_Sesuai);
                             }
                         }
-                        productsFromFile[index - 1].stokProduk--;
                         ReadData(productsFromFile);
                     }
                     else if (command == "2")
@@ -171,7 +180,9 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
@@ -188,7 +199,9 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
@@ -205,7 +218,9 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
@@ -222,14 +237,15 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Tidak_Sesuai);
                             }
                         }
-                        productsFromFile[index - 1].stokProduk--;
                         ReadData(productsFromFile);
                     }
                     else if (command == "3")
@@ -253,7 +269,9 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
@@ -270,7 +288,9 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
@@ -287,14 +307,15 @@ namespace Library.UserOps
 
                             if (nominal == (int)harga_barang)
                             {
+                                productsFromFile[index - 1].stokProduk--;
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Sesuai);
+
                             }
                             else
                             {
                                 Pembayaran.ActiveTrigger(Trigger.Harga_Tidak_Sesuai);
                             }
                         }
-                        productsFromFile[index - 1].stokProduk--;
                         ReadData(productsFromFile);
                     }
                     break;
