@@ -12,26 +12,26 @@ Aplikasi e-commerce yang dikhususkan dalam penjualan panel surya, yang beroperas
 
    
 
-Clone project ini
+**Clone project ini**
 
 ```bash
 https://github.com/RevanArturito/ReCycle-Sukabirus.git
 ```
 
-Link Json File (ProductsSolarPanels.json)
+**Link Json File (ProductsSolarPanels.json)**
 
 ```bash
 https://drive.google.com/file/d/1Qot2LX8Qj7ia9h8k3FD8C53fVND1zMse/view?usp=sharing
 ```
 
-Akun demo (as admin)
+**Akun demo (as admin)**
 
 ```bash
 Email : a
 Password : a
 ```
 
-Akun demo (as user)
+**Akun demo (as user)**
 
 ```bash
 Email : b
