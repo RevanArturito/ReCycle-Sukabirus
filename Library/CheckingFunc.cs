@@ -60,5 +60,37 @@ namespace Library
             }
             return (products[index-1].stokProduk > 0);
         }
+
+        public bool isAccount(string username, string password)
+        {
+            using (StreamReader Read = new StreamReader(FilePath))
+            {
+                accounts = JsonConvert.DeserializeObject<List<Account>>(Read.ReadToEnd());
+            }
+            for (int i = 0; i < accounts.Count; i++)
+            {
+                if (accounts[i].username == username && accounts[i].password == password)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public int isAccountIndex(string username, string password)
+        {
+            using (StreamReader Read = new StreamReader(FilePath))
+            {
+                accounts = JsonConvert.DeserializeObject<List<Account>>(Read.ReadToEnd());
+            }
+            for (int i = 0; i < accounts.Count; i++)
+            {
+                if (accounts[i].username == username && accounts[i].password == password)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
     }
 }

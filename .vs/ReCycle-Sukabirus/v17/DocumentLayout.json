@@ -3,52 +3,48 @@
   "WorkspaceRootPath": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\userops\\producttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\userops\\producttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\uiapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\uiapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A08007A-0451-4BBF-AA81-143ED883A305}|TestingLogReg\\TestingLogReg.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\testinglogreg\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A08007A-0451-4BBF-AA81-143ED883A305}|TestingLogReg\\TestingLogReg.csproj|solutionrelative:testinglogreg\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{321433A8-5FDB-43AA-80CD-2C81FAF5A0A5}|Main\\AuthConsole.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{321433A8-5FDB-43AA-80CD-2C81FAF5A0A5}|Main\\AuthConsole.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{321433A8-5FDB-43AA-80CD-2C81FAF5A0A5}|Main\\AuthConsole.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\main\\firestorehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{321433A8-5FDB-43AA-80CD-2C81FAF5A0A5}|Main\\AuthConsole.csproj|solutionrelative:main\\firestorehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\adminops\\createasadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\adminops\\createasadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\adminops\\viewasadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\adminops\\viewasadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\adminops\\updateasadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\adminops\\updateasadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\uiapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\uiapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\userops\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\userops\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\productssolarpanels.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\productssolarpanels.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Main\\bin\\Debug\\net8.0\\Account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Main\\bin\\Debug\\net8.0\\Account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\checkingfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\checkingfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\adminops\\deleteasadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\adminops\\deleteasadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D0957A1-7C24-494A-A2CF-CE177EC6F632}|Authentication\\Authentication.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\authentication\\account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4D0957A1-7C24-494A-A2CF-CE177EC6F632}|Authentication\\Authentication.csproj|solutionrelative:authentication\\account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|d:\\revan\\materi kuliah\\semester 4\\konstruksi perangkat lunak\\tubes\\recycle-sukabirus\\library\\adminops\\createasadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3AF245-A58F-4486-B0D8-85B84D949747}|Library\\Library.csproj|solutionrelative:library\\adminops\\createasadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\AppData\\Local\\Temp\\640b81b4-6508-444d-9fdd-9dbbd0e45973_1302223057_MOD8_JURNAL_GSD.zip.973\\ConsoleApp1\\ConsoleApp1\\BankTransferConfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -64,8 +60,25 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "FirestoreHelper.cs",
+              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Main\\FirestoreHelper.cs",
+              "RelativeDocumentMoniker": "Main\\FirestoreHelper.cs",
+              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Main\\FirestoreHelper.cs",
+              "RelativeToolTip": "Main\\FirestoreHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:13:56.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ProductsSolarPanels.json",
               "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\ProductsSolarPanels.json",
               "RelativeDocumentMoniker": "Library\\ProductsSolarPanels.json",
@@ -73,11 +86,12 @@
               "RelativeToolTip": "Library\\ProductsSolarPanels.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-05T19:23:25.571Z"
+              "WhenOpened": "2024-05-06T13:13:30.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\Program.cs",
               "RelativeDocumentMoniker": "Library\\Program.cs",
@@ -85,87 +99,90 @@
               "RelativeToolTip": "Library\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T19:21:12.831Z",
+              "WhenOpened": "2024-05-06T13:07:16.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CheckingFunc.cs",
-              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\CheckingFunc.cs",
-              "RelativeDocumentMoniker": "Library\\CheckingFunc.cs",
-              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\CheckingFunc.cs",
-              "RelativeToolTip": "Library\\CheckingFunc.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDoAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T19:18:23.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateAsAdmin.cs",
-              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\AdminOps\\UpdateAsAdmin.cs",
-              "RelativeDocumentMoniker": "Library\\AdminOps\\UpdateAsAdmin.cs",
-              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\AdminOps\\UpdateAsAdmin.cs",
-              "RelativeToolTip": "Library\\AdminOps\\UpdateAsAdmin.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T19:07:32.078Z",
+              "DocumentIndex": 2,
+              "Title": "Library",
+              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\Library.csproj",
+              "RelativeDocumentMoniker": "Library\\Library.csproj",
+              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\Library.csproj",
+              "RelativeToolTip": "Library\\Library.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-06T13:01:17.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UIapp.cs",
-              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\UIapp.cs",
-              "RelativeDocumentMoniker": "Library\\UIapp.cs",
-              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\UIapp.cs",
-              "RelativeToolTip": "Library\\UIapp.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwDYAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T18:46:34.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ViewAsAdmin.cs",
-              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\AdminOps\\ViewAsAdmin.cs",
-              "RelativeDocumentMoniker": "Library\\AdminOps\\ViewAsAdmin.cs",
-              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\AdminOps\\ViewAsAdmin.cs",
-              "RelativeToolTip": "Library\\AdminOps\\ViewAsAdmin.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA+wBQAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T18:45:15.722Z",
+              "DocumentIndex": 7,
+              "Title": "Account.json",
+              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Main\\bin\\Debug\\net8.0\\Account.json",
+              "RelativeDocumentMoniker": "Main\\bin\\Debug\\net8.0\\Account.json",
+              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Main\\bin\\Debug\\net8.0\\Account.json",
+              "RelativeToolTip": "Main\\bin\\Debug\\net8.0\\Account.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-06T13:00:24.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductTransaction.cs",
-              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\UserOps\\ProductTransaction.cs",
-              "RelativeDocumentMoniker": "Library\\UserOps\\ProductTransaction.cs",
-              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\UserOps\\ProductTransaction.cs*",
-              "RelativeToolTip": "Library\\UserOps\\ProductTransaction.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAPAAAA",
+              "Title": "UIapp.cs",
+              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\UIapp.cs",
+              "RelativeDocumentMoniker": "Library\\UIapp.cs",
+              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\UIapp.cs",
+              "RelativeToolTip": "Library\\UIapp.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowHMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T18:37:31.164Z",
+              "WhenOpened": "2024-05-06T12:51:58.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\UserOps\\Profile.cs",
+              "RelativeDocumentMoniker": "Library\\UserOps\\Profile.cs",
+              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\UserOps\\Profile.cs",
+              "RelativeToolTip": "Library\\UserOps\\Profile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T12:44:14.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Payments.cs",
-              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\Payments.cs",
-              "RelativeDocumentMoniker": "Library\\Payments.cs",
-              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\Payments.cs",
-              "RelativeToolTip": "Library\\Payments.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHgAAAAFAAAA",
+              "Title": "CheckingFunc.cs",
+              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\CheckingFunc.cs",
+              "RelativeDocumentMoniker": "Library\\CheckingFunc.cs",
+              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\CheckingFunc.cs",
+              "RelativeToolTip": "Library\\CheckingFunc.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAwFwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T18:25:00.93Z"
+              "WhenOpened": "2024-05-06T03:36:14.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\TestingLogReg\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestingLogReg\\UnitTest1.cs",
+              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\TestingLogReg\\UnitTest1.cs",
+              "RelativeToolTip": "TestingLogReg\\UnitTest1.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwD4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T03:28:12.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "BankTransferConfig.json",
               "DocumentMoniker": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\640b81b4-6508-444d-9fdd-9dbbd0e45973_1302223057_MOD8_JURNAL_GSD.zip.973\\ConsoleApp1\\ConsoleApp1\\BankTransferConfig.json",
               "ToolTip": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\640b81b4-6508-444d-9fdd-9dbbd0e45973_1302223057_MOD8_JURNAL_GSD.zip.973\\ConsoleApp1\\ConsoleApp1\\BankTransferConfig.json [Read Only]",
@@ -176,13 +193,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Main\\Program.cs",
               "RelativeDocumentMoniker": "Main\\Program.cs",
               "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Main\\Program.cs",
               "RelativeToolTip": "Main\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAxwCwAAAAMAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwDUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T18:14:35.699Z",
               "EditorCaption": ""
@@ -190,30 +207,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "DeleteAsAdmin.cs",
-              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\AdminOps\\DeleteAsAdmin.cs",
-              "RelativeDocumentMoniker": "Library\\AdminOps\\DeleteAsAdmin.cs",
-              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\AdminOps\\DeleteAsAdmin.cs",
-              "RelativeToolTip": "Library\\AdminOps\\DeleteAsAdmin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAB0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T06:50:41.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Account.json",
-              "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Authentication\\Account.json",
-              "RelativeDocumentMoniker": "Authentication\\Account.json",
-              "ToolTip": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Authentication\\Account.json",
-              "RelativeToolTip": "Authentication\\Account.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-01T07:09:23.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "CreateAsAdmin.cs",
               "DocumentMoniker": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\AdminOps\\CreateAsAdmin.cs",
               "RelativeDocumentMoniker": "Library\\AdminOps\\CreateAsAdmin.cs",
@@ -221,12 +214,7 @@
               "RelativeToolTip": "Library\\AdminOps\\CreateAsAdmin.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T08:33:14.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2024-05-04T08:33:14.576Z"
             }
           ]
         }

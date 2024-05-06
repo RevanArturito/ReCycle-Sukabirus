@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthConsole", "Main\AuthCon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "Authentication\Authentication.csproj", "{4D0957A1-7C24-494A-A2CF-CE177EC6F632}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{8B3AF245-A58F-4486-B0D8-85B84D949747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.csproj", "{8B3AF245-A58F-4486-B0D8-85B84D949747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingLogReg", "TestingLogReg\TestingLogReg.csproj", "{4A08007A-0451-4BBF-AA81-143ED883A305}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8B3AF245-A58F-4486-B0D8-85B84D949747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B3AF245-A58F-4486-B0D8-85B84D949747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B3AF245-A58F-4486-B0D8-85B84D949747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A08007A-0451-4BBF-AA81-143ED883A305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A08007A-0451-4BBF-AA81-143ED883A305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A08007A-0451-4BBF-AA81-143ED883A305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A08007A-0451-4BBF-AA81-143ED883A305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

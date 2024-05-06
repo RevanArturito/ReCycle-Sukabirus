@@ -100,5 +100,21 @@ namespace Library
             Console.WriteLine("#############################################");
             Console.WriteLine("");
         }
+        public void ProfileView1()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("#############################################");
+            Console.WriteLine("###                 Profile               ###");
+            Console.WriteLine("#############################################");
+            Console.WriteLine("");
+        }
+        public void ProfileView2()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("#############################################");
+            Console.WriteLine("1. Riwayat transaksi");
+            Console.WriteLine("2. Ubah data akun");
+            Console.WriteLine("0. Logout");
+        }
     }
 }

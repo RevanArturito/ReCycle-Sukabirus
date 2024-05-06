@@ -30,6 +30,7 @@ namespace AuthConsole
             DeleteAsAdmin adminDelete = new DeleteAsAdmin();
             UpdateAsAdmin adminUpdate = new UpdateAsAdmin();
             ProductTransaction userTransaction = new ProductTransaction();
+            Profile userProfile = new Profile();    
 
             // Read data akun json file
             const string FilePath = @"./Account.json";
@@ -112,14 +113,10 @@ namespace AuthConsole
                                                 Console.WriteLine();
                                                 ui.BeliProduk();
                                                 userTransaction.Transaction(indexBeli);
-                                            /*if (checkingFunc.StockCheck(indexBeli))
-                                            {
-                                            } else
-                                            {
-                                                Console.WriteLine("Stok Habis");
-                                            }*/
                                             break;
                                         case 2:
+                                            int indexCheck = checkingFunc.isAccountIndex(usernameLogin, passwordLogin);
+                                            userProfile.ProfileView(accounts[indexCheck].username, accounts[indexCheck].email, accounts[indexCheck].phone);
                                             break;
                                         case 3:
                                             adminView.viewProduct();
