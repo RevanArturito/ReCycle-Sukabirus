@@ -6,7 +6,7 @@ Aplikasi e-commerce yang dikhususkan dalam penjualan panel surya, yang beroperas
 1. Silahkan menggunakan link dibawah untuk mendownload file JSON (ProductsPanelsSurya.json)
 2. Silahkan melakukan Git Clone Project ini
 3. Setelah melakukan Git Clone, silahkan paste file json pada path berikut :
-   Main -> bin -> Debug -> net8.0 (paste disini)
+   **Main -> bin -> Debug -> net8.0 (paste disini)**
 4. Pilih folder AuthConsole (Set as setup project)
 5. Run program
 
