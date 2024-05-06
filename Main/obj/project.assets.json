@@ -505,6 +505,19 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Authentication": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
       }
     }
   },
@@ -1479,12 +1492,18 @@
       "type": "project",
       "path": "../Authentication/Authentication.csproj",
       "msbuildProject": "../Authentication/Authentication.csproj"
+    },
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../Library/Library.csproj",
+      "msbuildProject": "../Library/Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Authentication >= 1.0.0",
-      "Google.Cloud.Firestore >= 3.6.0"
+      "Google.Cloud.Firestore >= 3.6.0",
+      "Library >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1516,6 +1535,9 @@
           "projectReferences": {
             "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Authentication\\Authentication.csproj": {
               "projectPath": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Authentication\\Authentication.csproj"
+            },
+            "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\Library.csproj": {
+              "projectPath": "D:\\REVAN\\MATERI KULIAH\\SEMESTER 4\\KONSTRUKSI PERANGKAT LUNAK\\TUBES\\ReCycle-Sukabirus\\Library\\Library.csproj"
             }
           }
         }

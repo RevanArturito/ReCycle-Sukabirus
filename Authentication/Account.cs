@@ -1,4 +1,6 @@
-﻿namespace Authentication
+﻿using Microsoft.AspNetCore.Authentication.OAuth;
+
+namespace Authentication
 {
     public class Account
     {
@@ -16,5 +18,7 @@
             this.phone = phone;
             this.role = "user";
         } 
+
+        
     }
 }
