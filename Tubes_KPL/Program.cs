@@ -18,6 +18,7 @@ internal class Program
 
         // Update atau edit produk
         UpdateProduk updater = new UpdateProduk();
+        TampilProdukEdit<Produk> edit = new TampilProdukEdit<Produk>(products);
         int indexProduk;
         do
         {
@@ -29,6 +30,7 @@ internal class Program
                 Console.WriteLine("Produk Tidak Ditemukan!");
             }
         } while (indexProduk == -1);
+        edit.TampilkanProduk(indexProduk);
         updater.update(products, indexProduk);
     }
 }
