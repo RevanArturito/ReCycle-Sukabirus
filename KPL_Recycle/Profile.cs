@@ -48,9 +48,9 @@ namespace KPL_Recycle
             public void UpdateProfile(string newUsername, string newEmail, long newPhoneNumber)
             {
                 // Precondition
-                Debug.Assert(!string.IsNullOrEmpty(newUsername), "Username yang baru tidak boleh kosong.");
-                Debug.Assert(!string.IsNullOrEmpty(newEmail), "Email yang baru tidak boleh kosong.");
-                Debug.Assert(newPhoneNumber > 13 , "Nomor HP yang baru tidak boleh lebih dari 13 angka.");
+                Debug.Assert(!string.IsNullOrEmpty(newUsername), "Username tidak boleh kosong.");
+                Debug.Assert(!string.IsNullOrEmpty(newEmail), "Email tidak boleh kosong.");
+                Debug.Assert(newPhoneNumber > 13 , "Nomor telepon tidak boleh lebih dari 13 angka.");
 
                 // Update informasi profile dengan nilai yang baru
                 configuration.username = newUsername;
@@ -58,9 +58,9 @@ namespace KPL_Recycle
                 configuration.phoneNumber = newPhoneNumber;
 
                 // Postcondition
-                Debug.Assert(configuration.username == newUsername, "Profile username is not updated.");
-                Debug.Assert(configuration.email == newEmail, "Profile email is not updated.");
-                Debug.Assert(configuration.phoneNumber == newPhoneNumber, "Profile phone number is not updated.");
+                Debug.Assert(configuration.username == newUsername, "Username tidak terupdate.");
+                Debug.Assert(configuration.email == newEmail, "Email tidak terupdate.");
+                Debug.Assert(configuration.phoneNumber == newPhoneNumber, "Nomor telepon tidak terupdate.");
 
                 // Save updated profile ke JSON file
                 SaveConfigToFile();

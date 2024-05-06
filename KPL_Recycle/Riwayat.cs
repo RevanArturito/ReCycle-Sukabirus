@@ -52,12 +52,12 @@ namespace KPL_Recycle
                 public void ReadJSON()
                 {
                     Console.WriteLine("========== Riwayat Transaksi ==========");
-                    Console.WriteLine(" | Nama Panel |" + " | Harga | " + " | Jumlah Dibeli | ");
+                    Console.WriteLine(" |  Nama Panel " + " | Harga  " + "   | Jumlah Dibeli | ");
                     Console.WriteLine("--------------------------------------------");
 
                     foreach (var config in configurations)
                     {
-                        Console.WriteLine($"  {config.namaPanel}   {config.harga}          {config.jumlahBeli}");
+                        Console.WriteLine($" | {config.namaPanel,-12} | {config.harga,8} | {config.jumlahBeli,13} |");
                     }
 
                     Console.WriteLine("--------------------------------------------");

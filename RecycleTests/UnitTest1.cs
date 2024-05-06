@@ -8,21 +8,22 @@ namespace RecycleTests
     public class UnitTest1
     {
         [TestMethod]
-        public void UpdateProfile_ValidInput_ProfileUpdated()
+        public void testProfileUpdate()
         {
             // Arrange
             ProfileConfig profileConfig = new ProfileConfig();
-            string newUsername = "NewUsername";
-            string newEmail = "new@example.com";
-            long newPhoneNumber = 1234567890123;
+
+            string Username = "Rivabaru";
+            string Email = "rivaNew@example.com";
+            long PhoneNumber = 1234567890123;
 
             // Act
-            profileConfig.UpdateProfile(newUsername, newEmail, newPhoneNumber);
+            profileConfig.UpdateProfile(Username, Email, PhoneNumber);
 
             // Assert
-            Assert.AreEqual(newUsername, profileConfig.configuration.username);
-            Assert.AreEqual(newEmail, profileConfig.configuration.email);
-            Assert.AreEqual(newPhoneNumber, profileConfig.configuration.phoneNumber);
+            Assert.AreEqual(Username, profileConfig.configuration.username);
+            Assert.AreEqual(Email, profileConfig.configuration.email);
+            Assert.AreEqual(PhoneNumber, profileConfig.configuration.phoneNumber);
         }
     }
 }
