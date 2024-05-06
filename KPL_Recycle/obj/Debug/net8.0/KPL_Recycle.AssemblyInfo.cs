@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KPL_Recycle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7092090aa470da96a9992496dfed1b10c0b91aad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14c43f50e9d28e8eb1c0b1da4a056241f16c21bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("KPL_Recycle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KPL_Recycle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

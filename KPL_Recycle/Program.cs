@@ -10,12 +10,35 @@ namespace KPL_Recycle
     {
         static void Main(string[] args)
         {
-            // Assuming ReadJSON is an instance method
-            ProfileConfig profile = new ProfileConfig();
-            profile.ReadJSON();
+            // Membuat instance ProfileConfig
+            ProfileConfig profileConfig = new ProfileConfig();
+
+            // Menampilkan profil sebelum diperbarui
+            Console.WriteLine("Profil Sebelum Diperbarui:");
+            profileConfig.ReadJSON();
+
+            // Meminta pengguna untuk memasukkan data baru
+            Console.WriteLine("\nMasukkan data baru:");
+
+            Console.Write("Username baru: ");
+            string newUsername = Console.ReadLine();
+
+            Console.Write("Email baru: ");
+            string newEmail = Console.ReadLine();
+
+            Console.Write("Nomor Telepon baru: ");
+            long newPhoneNumber = long.Parse(Console.ReadLine());
+
+            // Memanggil method UpdateProfile untuk memperbarui profil
+            profileConfig.UpdateProfile(newUsername, newEmail, newPhoneNumber);
+
+            // Menampilkan profil setelah diperbarui
+            Console.WriteLine("\nProfil Setelah Diperbarui:");
+            profileConfig.ReadJSON();
 
             Console.WriteLine("");
 
+            // Membuat instance RiwayatConfig
             RiwayatConfig riwayat = new RiwayatConfig();
             riwayat.ReadJSON();
         }

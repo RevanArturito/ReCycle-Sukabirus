@@ -29,21 +29,26 @@ namespace KPL_Recycle
             }
             public class RiwayatConfig
             {
+                // Atribut untuk menyimpan konfigurasi riwayat
                 public History[] configurations;
 
+                // Lokasi file JSON untuk konfigurasi riwayat
                 public const string filePath = "D:\\VS\\KPL_Recycle\\KPL_Recycle\\riwayat.json";
 
+                //constructor membaca config dari file json
                 public RiwayatConfig()
                 {
                     ReadConfigFile();
                 }
 
+                // Method membaca isi file json
                 private void ReadConfigFile()
                 {
                     string configJsonData = File.ReadAllText(filePath);
                     configurations = JsonSerializer.Deserialize<History[]>(configJsonData);
                 }
 
+                //Menampilkan riwayat transaksi
                 public void ReadJSON()
                 {
                     Console.WriteLine("========== Riwayat Transaksi ==========");

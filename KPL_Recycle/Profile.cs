@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
+using System.Diagnostics;
+using System.IO;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace KPL_Recycle
 {
@@ -30,21 +27,53 @@ namespace KPL_Recycle
 
         public class ProfileConfig
         {
+            // Atribut untuk menyimpan konfigurasi profil
             public Profiles configuration;
-
+            // Lokasi file JSON untuk konfigurasi profil
             public const string filePath = "D:\\VS\\KPL_Recycle\\KPL_Recycle\\profile.json";
 
+            //constructor membaca config dari file json
             public ProfileConfig()
             {
                 ReadConfigFile();
             }
-
+            // Method membaca isi file json
             private void ReadConfigFile()
             {
                 string configJsonData = File.ReadAllText(filePath);
                 configuration = JsonSerializer.Deserialize<Profiles>(configJsonData);
             }
 
+            // Method update profile
+            public void UpdateProfile(string newUsername, string newEmail, long newPhoneNumber)
+            {
+                // Precondition
+                Debug.Assert(!string.IsNullOrEmpty(newUsername), "Username yang baru tidak boleh kosong.");
+                Debug.Assert(!string.IsNullOrEmpty(newEmail), "Email yang baru tidak boleh kosong.");
+                Debug.Assert(newPhoneNumber > 13 , "Nomor HP yang baru tidak boleh lebih dari 13 angka.");
+
+                // Update informasi profile dengan nilai yang baru
+                configuration.username = newUsername;
+                configuration.email = newEmail;
+                configuration.phoneNumber = newPhoneNumber;
+
+                // Postcondition
+                Debug.Assert(configuration.username == newUsername, "Profile username is not updated.");
+                Debug.Assert(configuration.email == newEmail, "Profile email is not updated.");
+                Debug.Assert(configuration.phoneNumber == newPhoneNumber, "Profile phone number is not updated.");
+
+                // Save updated profile ke JSON file
+                SaveConfigToFile();
+            }
+
+            // Save new profile ke json
+            private void SaveConfigToFile()
+            {
+                string json = JsonSerializer.Serialize(configuration);
+                File.WriteAllText(filePath, json);
+            }
+
+            //Menampilkan profile
             public void ReadJSON()
             {
                 Console.WriteLine("========== Profile ==========");
